@@ -1,0 +1,66 @@
+body,
+html,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+  background-color: #fff;
+}
+.reminder-title h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.appCont {
+  display: flex;
+}
+.bx--date-picker__input {
+  width: 100%;
+}
+.list-group-item {
+  border: 1px solid #eee;
+  min-height: 42px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  padding: 13px;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+.btns-cont {
+  margin: 10px;
+}
+.btn {
+  margin-right: 10px;
+}
+.bx--form-item {
+  width: 50%;
+  margin: 10px;
+}
+.bx--date-picker,
+.bx--date-picker-container,
+.bx--date-picker__input,
+.bx--date-picker.bx--date-picker--single .bx--date-picker__input {
+  width: 100%;
+}
+.dataline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-delete {
+  margin-left: 10px;
+  width: 18px;
+  text-align: center;
+  height: 17px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #b10202;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  cursor: pointer;
+}
